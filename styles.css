@@ -5,7 +5,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 #container {
   margin: auto;
@@ -37,7 +37,7 @@ html {
 /*Implementing Content Styles and Buttons  */
 
 #content {
-  margin-top: 25%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -87,4 +87,23 @@ html {
 }
 .button:hover {
   border: 1px solid white;
+}
+/* styling the footer */
+/* this is what is a sticky footer */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 1300px;
+  height: 30px;
+  text-align: center;
+}
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 0.8em;
+}
+#flag {
+  width: 20px;
+  margin-bottom: -5px;
 }
